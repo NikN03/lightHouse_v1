@@ -5,6 +5,9 @@ module.exports = {
     },
     assert: {
       preset: "lighthouse:no-pwa",
+      assertions: {
+        "preload-lcp-image": "off",
+      },
     },
   },
 };
