@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  for (let i = 0; i < 1000000; i++) {
+  for (let i = 0; i < 10000; i++) {
     console.log(i);
   }
   return (
