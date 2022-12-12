@@ -9,6 +9,7 @@ module.exports = {
         "preload-lcp-image": "off",
         "unused-javascript": "off",
         "csp-xss": "off",
+        "categories:performance": ["error", { minScore: 0.9 }],
       },
     },
   },
