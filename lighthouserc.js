@@ -7,6 +7,8 @@ module.exports = {
       preset: "lighthouse:no-pwa",
       assertions: {
         "preload-lcp-image": "off",
+        "unused-javascript": "off",
+        "csp-xss": "off",
       },
     },
   },
